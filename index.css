@@ -6,10 +6,27 @@ html {
     background-size: cover;
   }
 
+  #pagebuttons {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
  div {
       color: white;
-      font-size: 30px;
+      font-size: 40px;
       padding-left: 200px;
       margin: 0px;
-        margin-top: 250px
+      margin-top: 200px
   }
+
+.abouttitle {
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    margin-left: 900px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
