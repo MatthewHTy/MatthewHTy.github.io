@@ -1,3 +1,11 @@
+html { 
+    background: url(https://images.pexels.com/photos/4992820/pexels-photo-4992820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .contactmiddle {
     text-align: center;
     font-family: Hina Mincho;
@@ -22,7 +30,7 @@ a {
     font-family: Hina Mincho;
 }
 
-body { background:rgb(255, 255, 255); }
+/* body { background:rgb(255, 255, 255); } */
 form { max-width:420px; margin: -30px auto; }
 
 .feedback-input {
