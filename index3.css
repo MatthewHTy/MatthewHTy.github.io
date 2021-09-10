@@ -16,3 +16,16 @@ a {
     text-decoration: none;
     font-family: Hina Mincho;
 }
+
+.imageSkills {
+    text-align: center;
+    margin-top: -220px;
+}
+
+h2 {
+    font-family: Hina Mincho;
+}
+
+h1 {
+    font-size: 50px;
+}
