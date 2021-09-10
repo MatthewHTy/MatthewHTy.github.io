@@ -16,3 +16,32 @@ a {
     text-decoration: none;
     font-family: Hina Mincho;
 }
+
+section {
+    font-size: 25px;
+}
+
+.introduction {
+    font-family: Hina Mincho;
+    text-align: center;
+    margin: 0px;
+    margin-top: -220px;
+}
+
+.location-section {
+    font-family: Hina Mincho;
+    text-align: center;
+    margin: 0px;
+    margin-top: 1px;
+}
+
+.questions-section {
+    font-family: Hina Mincho;
+    text-align: center;
+    margin: 0px;
+    margin-top: 1px;
+}
+
+h1 {
+    font-size: 50px
+}
