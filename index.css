@@ -40,3 +40,6 @@ a {
     font-family: Hina Mincho;
 }
 
+@media scren and (max-width: 400px) {
+
+}
