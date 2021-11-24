@@ -97,6 +97,10 @@ p {
     height: 80px;
     margin: 30px;
 }
+
+.social {
+    margin: 10px;
+}
 /* @media screen and (max-width: 400px) {
 
 } */
