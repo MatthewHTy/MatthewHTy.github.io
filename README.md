@@ -1,4 +1,4 @@
-# Meal Planner
+Matthew Ty's Portfolio
 
-Users can create and add meals that they would like to add to their diet plan.
+
 
