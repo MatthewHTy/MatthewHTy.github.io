@@ -154,6 +154,18 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
+
+    /* .headshot-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    } */
 }
 
 .project-image {
