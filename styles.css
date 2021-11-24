@@ -7,9 +7,13 @@ section {
 .hero {
     background-color: blue;
     height: 100vh;
-    
+
 }
 
+footer {
+    height: 500px;
+    background-color: black;
+}
 /* @media screen and (max-width: 400px) {
 
 } */
