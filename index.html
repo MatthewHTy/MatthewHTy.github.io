@@ -6,23 +6,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&family=Parisienne&family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/55a741c38d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <section class="hero">
         <nav>
             <img class="logo"src="./src/images/picture1.png" alt="example-logo" />
-            <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact Me</li>
+            <ul id="nav-list">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Hey, I'm Matthew Ty</h1>
                 <p>Full Stack Web Developer</p>
-                <div class="button">About Me</div>
+                <div class="button"><a href="#about-me">About Me</a></div>
             </div>
             <div class="socials">
                 <div>
@@ -39,7 +43,7 @@
             </div>
         </div>
         </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
             <p>Hey! My name is Matthew Ty. I am a Web Developer.</p>
@@ -48,7 +52,7 @@
             <img class="headshot" src="src/images/AboutMe.jpg" alt="Matthew Ty's Headshot"/>
         </div>
     </section>
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
@@ -56,18 +60,21 @@
                 <h3>Streak</h3>
                 <p class="subtext">Streak is a workout planner to help users get back into the gym consistently.</p>
                 <hr />
-                <p class="subtext"><a href="https://youtu.be/_d7K0MaZ_jc">View Here</a></p>
+                <p class="subtext"><a class="project-link" href="https://youtu.be/_d7K0MaZ_jc">View Here</a></p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="src/images/DietPlanner.png" alt="Diet Planner Project Image" />
                 <h3>Diet Planner</h3>
                 <p class="subtext">Diet planner is a project where users can generate meals that they would like to try.</p>
                 <hr />
-                <p class="subtext"><a href="https://youtu.be/Fjq4qWK8RcY">View Here</a></p>
+                <p class="subtext"><a class="project-link" href="https://youtu.be/Fjq4qWK8RcY">View Here</a></p>
             </div>
         </div>
     </section>
-    <footer></footer>
+    <footer id="contact-me">
+        <h2>Contact Me</h2>
+        <p>matthewty1220@gmail.com</p>
+    </footer>
     <script src="./src/app.js"></script>
 </body>
 </html>
