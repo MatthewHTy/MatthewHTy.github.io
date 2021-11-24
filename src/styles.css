@@ -7,11 +7,8 @@ body {
 }
 
 section {
-    height: 500px;
     background-color: white;
     border: solid black 1px;
-
-
 }
 
 .hero {
@@ -19,7 +16,6 @@ section {
     height: 100vh;
     color: white;
     font-size: 40px;
-
 }
 
 footer {
@@ -48,6 +44,11 @@ li {
 h1 {
     font-size: 60px;
     margin: 0;
+}
+
+h2 {
+    font-size: 60px;
+  
 }
 
 p {
@@ -99,8 +100,20 @@ p {
 }
 
 .social {
-    margin: 10px;
+    margin: 20px;
 }
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
 /* @media screen and (max-width: 400px) {
 
 } */
