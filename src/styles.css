@@ -200,7 +200,9 @@ a {
         display: none;
         background-color:  rgb(21, 140, 180);
         margin: 0px;
-        width: 660px;
+        padding: 0px;
+        width: 100%;
+      
     }
 
     nav {
