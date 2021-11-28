@@ -188,8 +188,12 @@ hr {
 }
 
 a {
-    text-decoration: none;
+   text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: rgb(182, 85, 85);
 }
 
 .hamburger {
@@ -213,12 +217,16 @@ a {
 
     ul {
         display: none;
-        background-color:  rgb(21, 140, 180);
+        background-color: transparent;
         margin: 0px;
         padding: 0px;
         width: 100%;
         text-align: center;
     }
+
+    /* ul:hover {
+        background-color: linear-gradient(#4b0e0e, #311972);
+    } */
 
     nav {
         display: flex;
