@@ -86,7 +86,7 @@ p {
     width: 200px;
     height: 50px;
     border-radius: 25px;
-    background-color: rgb(43, 40, 110);
+    background-color: #311972;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -95,7 +95,7 @@ p {
 }
 
 .button:hover {
-    background: #311972;
+    background: #4b0e0e;
 }
 
 .button:active {
