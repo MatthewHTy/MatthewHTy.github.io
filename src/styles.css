@@ -12,11 +12,13 @@ section {
 }
 
 .hero {
-    background-color: #1c1d25;
+    background: linear-gradient(#4b0e0e, #311972);
     height: 100vh;
     color: white;
     font-size: 40px;
 }
+/* background: linear-gradient(#e66465, #9198e5); */
+/* background-color: #1c1d25; */
 
 footer {
     background-color: #1c1d25;
