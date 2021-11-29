@@ -6,9 +6,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-section {
-    background-color: white;
+.sub-section {
+    background: rgb(224, 224, 224);
     border: solid black 1px;
+}
+
+.sub-section-alternative {
+    background: rgb(224, 224, 224);
 }
 
 .hero {
@@ -184,7 +188,8 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: rgb(32, 199, 255);
+    color: rgb(131, 64, 64);
+    font-size: 22px;
 }
 
 a {
