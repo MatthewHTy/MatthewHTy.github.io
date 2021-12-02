@@ -183,6 +183,11 @@ p {
     border-radius: 5px;
 }
 
+.project-image:hover {
+    border: none;
+    box-shadow: 4px 4px 10px #333;
+}
+
 hr {
     margin-left: 20px;
     margin-right: 20px;
