@@ -1,7 +1,9 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -21,6 +23,7 @@ body {
     color: white;
     font-size: 40px;
 }
+
 /* background: linear-gradient(#e66465, #9198e5); */
 /* background-color: #1c1d25; */
 
@@ -60,7 +63,7 @@ h1 {
 
 h2 {
     font-size: 60px;
-    
+
 }
 
 p {
@@ -200,7 +203,7 @@ hr {
 }
 
 a {
-   text-decoration: none;
+    text-decoration: none;
     color: white;
 }
 
@@ -209,7 +212,7 @@ a:hover {
 }
 
 .hamburger {
-   display: none;
+    display: none;
 }
 
 .hamburger:focus {
@@ -244,7 +247,7 @@ a:hover {
         display: flex;
         flex-direction: column-reverse;
     }
-    
+
     .logo {
         display: none;
     }
